@@ -1,0 +1,89 @@
+body{
+	background-color: black;
+}
+div{
+	width: 600px;
+	height: 400px;
+	/*background-color: #d2e847;*/
+	background-color: blue;
+	/*background-color: orange;*/
+}
+#brownBackground{
+	width: 600px;
+	height: 200px;
+	/*background-color: #511d1d;*/
+	background-color: orange;
+}
+#greenDiag1{
+	position: relative;
+	width: 200px;
+	height: 50px;
+	top:-20px;
+	left: 170px;
+	transform: rotate(50deg);
+	background-color: #2a7a25;
+	animation-name: exampl;
+    animation-duration: 5s;
+}
+@keyframes exampl {
+    0%   {background-color:#285b1d; left:540px; top:350px;}
+    25%  {background-color:#2a7a25; left:150px; top:-40px;}
+    50%  {background-color:#285b1d; left:180px; top:-10px;}
+    75%  {background-color:#285b1d; left:165px; top:-25px;}
+    100% {background-color:#2a7a25; left:170px; top:-20px;}
+}
+#greenDiag2{
+	position: relative;
+	width: 200px;
+	height: 50px;
+	top:-140px;
+	left: 240px;
+	transform: rotate(50deg);
+	background-color: #2a7a25;
+	animation-name: example;
+    animation-duration: 5s;
+}
+@keyframes example {
+    0%   {background-color:#285b1d; left:0px; top:-410px;}
+    25%  {background-color:#2a7a25; left:260px; top:-120px;}
+    50%  {background-color:#285b1d; left:230px; top:-150px;}
+    75%  {background-color:#285b1d; left:245px; top:-135px;}
+    100% {background-color:#2a7a25; left:240px; top:-140px;}
+}
+#whiteDiag1{
+	position: relative;
+	width: 200px;
+	height: 50px;
+	top:-205px;
+	left: 175px;
+	transform: rotate(-40deg);
+	background-color: #e1e8e1;
+	animation-name: examp;
+    animation-duration: 5s;
+}
+@keyframes examp {
+    0%   {background-color:#e1e8e1; left:0px; top:-30px;}
+    25%  {background-color:#a7aaaf; left:195px; top:-225px;}
+    50%  {background-color:#e1e8e1; left:165px; top:-195px;}
+    75%  {background-color:#a7aaaf; left:180px; top:-210px;}
+    100% {background-color:#e1e8e1; left:175px; top:-205px;}
+}
+#whiteDiag2{
+	position: relative;
+	width: 200px;
+	height: 50px;
+	top:-207px;
+	left: 227px;
+	transform: rotate(-40deg);
+	background-color: #e1e8e1;
+	animation-name: exam;
+    animation-duration: 5s;
+}
+
+@keyframes exam {
+    0%   {background-color:#e1e8e1; left:454px; top:-434px;}
+    25%  {background-color:#a7aaaf; left:207px; top:-187px;}
+    50%  {background-color:#e1e8e1; left:237px; top:-217px;}
+    75%  {background-color:#a7aaaf; left:232px; top:-202px;}
+    100% {background-color:#e1e8e1; left:227px; top:-207px;}
+}
